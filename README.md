@@ -6,7 +6,7 @@ The reason why Stata becomes slow when handling large data sets is that it loads
 Little things that can improve computational speed and/or converse memory are…
 
 - … the Stata version used: Stata MP can be an advantage when working with large data sets as it exploits available capacities across multiple cores for computationally intensive tasks
-- - … commands used: Some commands are faster than others, e.g. reghdfe is considerably faster than xtreg
+- … commands used: Some commands are faster than others, e.g. reghdfe is considerably faster than xtreg
 - … variables: some variables might take up more memory than necessary, e.g. string variables that accommodate a lot more characters than actually required. 
 
 **compress** is an amazing command, which converts variables to the smallest storage type possible without losing any information. I’d recommend executing it each time before saving a data set or even before running a major command like reshape or a long loop.
