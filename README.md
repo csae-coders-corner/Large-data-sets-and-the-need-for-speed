@@ -16,7 +16,7 @@ The trick that ultimately cut the time to run my do-file from 24 hours to 3 hour
 **In short**: Cut your data into several smaller data sets, run your code, append the datasets back together. 
 
 
-**Here is an example for the code I ran:**
+### Here is an example for the code I ran:
 
 use fulldataset.dta				\\\ load full data set
 
