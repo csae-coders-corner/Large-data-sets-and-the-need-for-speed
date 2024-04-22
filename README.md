@@ -1,3 +1,6 @@
+
+![CC Graphics 2024_Datasets](https://github.com/csae-coders-corner/Large-data-sets-and-the-need-for-speed/assets/148211163/14e983b0-9374-400c-bb5b-239046a9e42d)
+
 # Large-data-sets-and-the-need-for-speed
 Very large datasets slowing down even the simplest computations in Stata? Sound familiar? I recently ran into an issue where executing several loops to generate a large number of dummy variables (so not a very complex task) would take 24 hours. The following blog post discusses a few tricks on how to improve the speed of Stata jobs when handling large data sets. 
 
