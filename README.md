@@ -21,6 +21,7 @@ The trick that ultimately cut the time to run my do-file from 24 hours to 3 hour
 
 ### Here is an example for the code I ran:
 
+```
 use fulldataset.dta				\\\ load full data set
 
 levelsof identifier, local(clustername)      \\\ identify a suitable way to split your data set and identify all possible values it can take (e.g. split by province, by cohort)
@@ -54,6 +55,7 @@ save “newfile”, replace
 }
 
 }
+```
 
 The idea is borrowed from a Stata command called parallel, which implements many of the above described tricks in a user-friendly way. Unfortunately, in my experience, the command struggles with reliably appending the split data set back together after implementing the core job for very large data sets, but this is definitely also a command that you could consider for this kind of task
 
